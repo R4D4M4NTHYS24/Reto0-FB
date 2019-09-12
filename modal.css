@@ -1,0 +1,115 @@
+.modal-content{
+	background-color:white;
+	height: 80px;
+	width: 450px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	background-repeat: no-repeat;  
+	background-image: url("./img/card1.jpg");
+	padding-top: 40%;   
+  }
+
+  .modal{	
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;  
+  }
+
+  #myModal:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+
+  .modal-content2{
+	background-color:white;
+	height: 80px;
+	width: 450px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	background-repeat: no-repeat;  
+	background-image: url("./img/card2.jpg");
+	padding-top: 40%;   
+  }
+
+  .modal2{	
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;  
+  }
+
+  #myModal2:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+
+  .modal-content3{
+	background-color:white;
+	height: 80px;
+	width: 450px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	background-repeat: no-repeat;  
+	background-image: url("./img/card3.jpg");
+	padding-top: 40%;   
+  }
+
+  .modal3{	
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;  
+  }
+
+  #myModal3:target{
+	opacity:1;
+	pointer-events:auto;
+  } 
+
+  .modal-content4{
+	background-color:white;
+	height: 80px;
+	width: 450px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+	background-repeat: no-repeat;  
+	background-image: url("./img/card4.jpg");
+	padding-top: 40%;   
+  }
+
+  .modal4{	
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;  
+  }
+
+  #myModal4:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+
+  
+
+ 
