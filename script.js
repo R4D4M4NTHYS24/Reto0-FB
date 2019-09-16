@@ -1,27 +1,3 @@
-/*
-data = {
-    id:5,
-    name:"Camilo"
-}
-
-fetch("https://randomuser.me/api/",{
-    method: "POST", // *GET, POST, PUT, DELETE, etc.
-    headers: {
-        "Content-Type": "application/json",
-        // "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: JSON.stringify(data), // body data type must match "Content-Type" header
-}).then((value) =>{
-    return value.json();
-}).then((value) => {
-    return value.results[0]
-}).then((value) => {
-    let nombre = document.getElementById("nombre");
-    nombre.innerHTML = value.name.title + " " + value.name.first + " " + value.name.last;
-})
-*/
-
-
 let about = document.getElementById("about");
 let getAbout = document.getElementById("getAbout");
 let resume = document.getElementById("resume");
