@@ -399,7 +399,7 @@
                 
                 <section class="contact-form">
                     <h3 class="title">Contact Form</h3>
-                    <form class="line-left" id="form" name="contact-form" netlify>
+                    <form class="line-left" id="form" method="POST" name="contact-form" netlify>
                         <div class="double-line">
                             <div>
                                 <input type="text" placeholder="Full Name" id="name" name="full-name" required>
@@ -412,7 +412,7 @@
                             <textarea name="message" placeholder="Your Message" id="message" cols="30" rows="10"
                                 required></textarea>
                         </div>
-                        <button>SEND MESSAGE <i class="fas fa-arrow-right"></i></button>
+                        <button type="submit">SEND MESSAGE <i class="fas fa-arrow-right"></i></button>
                     </form>
                 </section>
             </div>
