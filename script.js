@@ -81,6 +81,7 @@ email.addEventListener("input", function (event) {
   }
 });
 
+/*
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   userObject.nameUser = nameUser.value;
@@ -90,3 +91,4 @@ form.addEventListener("submit", function (event) {
   localStorage.setItem("submit", JSON.stringify(userObject));
   console.log(userObject);
 });
+*/
