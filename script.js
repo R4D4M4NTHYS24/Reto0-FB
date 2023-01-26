@@ -70,7 +70,7 @@ let name;
 let message;
 let userObject = {};
 
-name = document.getElementById("name");
+nameUser = document.getElementById("name");
 message = document.getElementById("message");
 
 email.addEventListener("input", function (event) {
@@ -83,7 +83,7 @@ email.addEventListener("input", function (event) {
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
-  userObject.name = name.value;
+  userObject.nameUser = nameUser.value;
   userObject.email = email.value;
   userObject.message = message.value;
   console.log("envie");
